@@ -1,5 +1,6 @@
+""" 
 #lists 
-
+ 
 names = ['sarah', 'john', 'mark']
 
 names2 = ['wolf', 'lion']
@@ -17,3 +18,14 @@ names[1:2] = []
 print(names)
 
 print(len(names + names2))
+
+"""
+#While loop
+
+x = 0
+
+while x < 10:
+    print(x, end=', ') 
+    x = x + 1
+
+print('Done')
