@@ -66,3 +66,27 @@ print( tuple( range(10, 20) ) )
 
 
 """
+#break, continue, pass
+
+names = ['amir', 'jack', 'kevin', 'mark', 'bob']
+
+# for x in names:
+#     if x == 'jack':
+#         continue
+#     print(x)
+
+# for y in names:
+#     if y == 'jack':
+#         break
+#     print(y)
+
+# for x in names:
+#     print(x)
+
+# else:
+#     print('End...')
+
+for x in names:
+    pass 
+    # or
+    # ... elipsice object
