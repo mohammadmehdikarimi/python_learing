@@ -30,7 +30,7 @@ while x < 10:
 
 print('Done')
 
-"""
+
 
 #If else statement
 
@@ -42,3 +42,13 @@ if x < 18:
     print('true')
 else:
     print('equal')    
+
+    
+"""
+
+#for loop
+
+names = ['amir', 'jack', 'kevin', 'mark', 'bob']
+
+for x in names:
+    print(x, len(x))
