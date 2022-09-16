@@ -15,3 +15,5 @@ print(names + names2)
 names[1:2] = []
 
 print(names)
+
+print(len(names + names2))
