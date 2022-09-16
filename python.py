@@ -44,7 +44,7 @@ else:
     print('equal')    
 
     
-"""
+
 
 #for loop
 
@@ -52,3 +52,14 @@ names = ['amir', 'jack', 'kevin', 'mark', 'bob']
 
 for x in names:
     print(x, len(x))
+
+"""
+#Range
+for x in range(0, 10):
+    print(x)
+
+for y in range(0, 100, 10):
+    print(y)
+
+print( list( range(10) ) )
+print( tuple( range(10, 20) ) )
