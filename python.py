@@ -91,25 +91,45 @@ for x in names:
     # or
     # ... elipsice object
 
-"""
+
 
 
 #Function
 
-def show():
-    print('Hello, World!')
+# def show():
+#     print('Hello, World!')
 
-def show(name, age):
-    print('Hello ' + name)
-    print('you are ' + age + ' years old')
+# def show(name, age):
+#     print('Hello ' + name)
+#     print('you are ' + age + ' years old')
 
-def show(name):
-    return 'Hello ' + name
+# def show(name):
+#     return 'Hello ' + name
 
-x = show('john')
+# x = show('john')
 
-print(x)
+# print(x)
 
-or
+# or
 
-print(show('john))
+# print(show('john))
+
+
+ """
+
+
+#  list methods
+
+names = ['amir', 'jack', 'kevin', 'mark', 'jack']
+
+names.append('sarah')
+
+names.extend(['bob', 'jane', 'john'])
+
+names.insert(2, 'jonathan')
+
+names.remove('jack')
+
+# names.pop(0)  /   remove and also returns the value
+
+print(names)
