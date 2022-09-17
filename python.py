@@ -147,9 +147,9 @@ numbers = (11, 22, 45,(15, 18, 16))
 print(names)
 print(numbers)
 
-"""
 
-#  set / unordered , no reapeat , sensetive to capital alphabet
+
+#  set / unordered , no reapeat , sensetive to capital alphabet , unmuteable
 
 names = {'amir', 'kevin', 'jack'}
 
@@ -159,3 +159,22 @@ if 'amir' in names:
 letters = set('mongard')
 
 print(letters)
+
+"""
+
+# dictionaries / key:value pair
+
+ages = {'amir':20, 'jack':15, 'kevin':30}
+
+ages['anna'] = 43
+
+ages['jack'] = 14
+
+del ages['amir']
+
+print(ages)
+
+print(ages.items())
+
+for i, j in ages.items():
+    print(i, j)
