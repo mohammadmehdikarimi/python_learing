@@ -115,7 +115,7 @@ for x in names:
 # print(show('john))
 
 
- """
+
 
 
 #  list methods
@@ -133,3 +133,16 @@ names.remove('jack')
 # names.pop(0)  /   remove and also returns the value
 
 print(names)
+
+
+ """
+
+#  tuple
+
+names = ('amir', 'jack', 'kevin', ['anna', 'bob', ('brad', 'john')])
+
+numbers = (11, 22, 45,(15, 18, 16))
+
+
+print(names)
+print(numbers)
