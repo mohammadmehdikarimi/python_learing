@@ -135,7 +135,7 @@ names.remove('jack')
 print(names)
 
 
- """
+
 
 #  tuple
 
@@ -146,3 +146,16 @@ numbers = (11, 22, 45,(15, 18, 16))
 
 print(names)
 print(numbers)
+
+"""
+
+#  set / unordered , no reapeat , sensetive to capital alphabet
+
+names = {'amir', 'kevin', 'jack'}
+
+if 'amir' in names:
+    print('yes')
+
+letters = set('mongard')
+
+print(letters)
