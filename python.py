@@ -65,7 +65,7 @@ print( list( range(10) ) )
 print( tuple( range(10, 20) ) )
 
 
-"""
+
 #break, continue, pass
 
 names = ['amir', 'jack', 'kevin', 'mark', 'bob']
@@ -90,3 +90,26 @@ for x in names:
     pass 
     # or
     # ... elipsice object
+
+"""
+
+
+#Function
+
+def show():
+    print('Hello, World!')
+
+def show(name, age):
+    print('Hello ' + name)
+    print('you are ' + age + ' years old')
+
+def show(name):
+    return 'Hello ' + name
+
+x = show('john')
+
+print(x)
+
+or
+
+print(show('john))
