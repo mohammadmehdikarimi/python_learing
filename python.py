@@ -187,7 +187,7 @@ age = 34
 
 print(f'{name} is {age} years old.')
 
-"""
+
 
 
 # the string format() method
@@ -204,3 +204,7 @@ info = {'name':'jack', 'age':12}
 info2 = {'name':'anna', 'age':16}
 
 print('{0[name]} is {0[age]} years old {1[name]} is {1[age]} years old.'.format(info, info2))
+
+"""
+
+# reading and writing files
