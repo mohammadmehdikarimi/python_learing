@@ -160,7 +160,6 @@ letters = set('mongard')
 
 print(letters)
 
-"""
 
 # dictionaries / key:value pair
 
@@ -178,3 +177,13 @@ print(ages.items())
 
 for i, j in ages.items():
     print(i, j)
+
+"""
+
+# formatted string literals
+
+name = 'jack'
+
+age = 34
+
+print(f'{name} is {age} years old.')
