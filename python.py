@@ -220,7 +220,7 @@ with open('text.txt') as f:
 
 # f.close()
 
-"""
+
 
 
 # scope
@@ -234,3 +234,27 @@ def show():
 
 show()
 
+
+"""
+
+# oop
+
+
+class Car:   #blueprint
+    pass
+
+
+a = Car()    #object or instance
+b = Car()
+
+
+a.name = 'Benz' # attribute / property
+b.name = 'Bmw'
+
+a.price = 100000
+b.price = 120000
+
+print(a.price)
+
+print(f'{a.name} costs {a.price}')
+print(f'{b.name} costs {b.price}')
