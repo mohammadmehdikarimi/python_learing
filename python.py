@@ -224,3 +224,13 @@ with open('text.txt') as f:
 
 
 # scope
+
+a = 10  # global scope
+
+def show():
+    b = 30       # local scope
+    print(a)
+
+
+show()
+
