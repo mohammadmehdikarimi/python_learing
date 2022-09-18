@@ -207,4 +207,15 @@ print('{0[name]} is {0[age]} years old {1[name]} is {1[age]} years old.'.format(
 
 """
 
-# reading and writing files
+# reading and writing files 
+
+with open('text.txt') as f:
+    print(f.read())
+
+
+
+# f = open('text.txt', 'r')
+
+# print(f.read())
+
+# f.close()
