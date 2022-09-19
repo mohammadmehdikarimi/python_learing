@@ -235,7 +235,6 @@ def show():
 show()
 
 
-"""
 
 # oop
 
@@ -258,3 +257,8 @@ print(a.price)
 
 print(f'{a.name} costs {a.price}')
 print(f'{b.name} costs {b.price}')
+
+"""
+
+# method
+
