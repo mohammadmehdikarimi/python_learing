@@ -355,3 +355,27 @@ a.show()
 
 # python built-in methods
 
+class Car:
+    def __init__(self, name, price) -> None:
+        self.name = name
+        self.price = price
+
+    def show(self):
+        print(f'i have a {self.name}')
+
+    def __str__(self) -> str:
+        return f'{self.name}, {self.price}'
+        
+    def __add__(self, other):
+        return self.price + other.price
+    
+    def __len__(self):
+        return len(self.name)
+
+
+a = Car('Benz', 100)
+b = Car('Bmw', 200)
+
+print(a)
+print(a + b)
+print(len(b))
