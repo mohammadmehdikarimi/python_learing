@@ -294,7 +294,7 @@ class Car:
 a = Car('Benz', 100)   
 b = Car('Bmw', 120)
 
-"""
+
 # method ==> 1.instance, 2.class, 3.static
 
 import datetime
@@ -325,3 +325,7 @@ p1 = Person.from_birth('sarah', 170, 1990)
 p1.show()
 
 Person.is_adult(23)
+
+"""
+
+# inheritence
