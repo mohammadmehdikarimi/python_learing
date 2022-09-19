@@ -262,3 +262,18 @@ print(f'{b.name} costs {b.price}')
 
 # method
 
+class Car:   
+    def __init__(self, n, p):      #built-in method
+        self.name = n
+        self.price = p
+
+    def show(self):
+        print(f'{self.name} costs {self.price}')
+
+
+a = Car('Benz', 100)   
+b = Car('Bmw', 120)
+
+
+a.show()
+b.show()
