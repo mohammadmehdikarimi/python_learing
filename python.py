@@ -329,3 +329,24 @@ Person.is_adult(23)
 """
 
 # inheritence
+
+class Car:              #parent / superclass
+    wheel = 4
+    def __init__(self, name) -> None:
+        self.name = name
+
+    def show(self):
+        print(f'i have a {self.name}')
+
+
+class Motor(Car):       #child / subclass
+    wheel = 2
+
+    def show(self):
+        super().show()
+        print(f'i ride a {self.name}')
+
+
+a = Motor('Honda')
+
+a.show()
