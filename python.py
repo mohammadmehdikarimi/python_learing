@@ -326,7 +326,6 @@ p1.show()
 
 Person.is_adult(23)
 
-"""
 
 # inheritence
 
@@ -350,3 +349,9 @@ class Motor(Car):       #child / subclass
 a = Motor('Honda')
 
 a.show()
+
+"""
+
+
+# python built-in methods
+
