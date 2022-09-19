@@ -258,7 +258,7 @@ print(a.price)
 print(f'{a.name} costs {a.price}')
 print(f'{b.name} costs {b.price}')
 
-"""
+
 
 # method
 
@@ -277,3 +277,9 @@ b = Car('Bmw', 120)
 
 a.show()
 b.show()
+
+
+"""
+
+#variable ==> 1.instance, 2.class
+
