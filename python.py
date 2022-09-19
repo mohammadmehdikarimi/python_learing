@@ -295,4 +295,33 @@ a = Car('Benz', 100)
 b = Car('Bmw', 120)
 
 """
-# static method, class method
+# method ==> 1.instance, 2.class, 3.static
+
+import datetime
+
+class Person:
+    def __init__(self, name, height, age) -> None:
+        self.name = name
+        self.heght = height
+        self.age = age
+
+    def show(self):
+        print(f'{self.name} is {self.heght} cm tall and {self.age} years old.')
+
+    @classmethod
+    def from_birth(cls, name, height, age):
+        return cls(name, height, datetime.datetime.now().year - age)
+
+    @staticmethod
+    def is_adult(age):
+        if age > 18:
+            print('Yes')
+        else:
+            print('No')
+
+
+p1 = Person.from_birth('sarah', 170, 1990)
+
+p1.show()
+
+Person.is_adult(23)
