@@ -350,7 +350,7 @@ a = Motor('Honda')
 
 a.show()
 
-"""
+
 
 
 # python built-in methods
@@ -379,3 +379,39 @@ b = Car('Bmw', 200)
 print(a)
 print(a + b)
 print(len(b))
+
+
+"""
+
+# access points ==> public, protected, private
+
+class Person:
+    name = 'john' #public
+    _age = 32        #protected
+    __height = 180       #private
+
+
+class Male(Person):
+    def show(self):
+        # print(self._age)
+        print(self.__height)
+
+
+# a = Male()
+# a.show()
+
+
+p = Person()
+
+print(p._Person__height)  #name mangling
+
+
+
+
+
+
+
+
+
+
+
