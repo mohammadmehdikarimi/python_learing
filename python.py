@@ -279,7 +279,6 @@ a.show()
 b.show()
 
 
-"""
 
 #variable ==> 1.instance, 2.class
 
@@ -294,3 +293,6 @@ class Car:
 
 a = Car('Benz', 100)   
 b = Car('Bmw', 120)
+
+"""
+# static method, class method
