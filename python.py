@@ -283,3 +283,14 @@ b.show()
 
 #variable ==> 1.instance, 2.class
 
+class Car:   
+    wheel = 4 # class variable / accesable from all variable instances
+    def __init__(self, n, p):      #built-in method
+        self.name = n
+        self.price = p
+        print(f'{self.name} costs {self.price} and has {self.wheel} wheels')
+        
+
+
+a = Car('Benz', 100)   
+b = Car('Bmw', 120)
