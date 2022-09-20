@@ -381,7 +381,7 @@ print(a + b)
 print(len(b))
 
 
-"""
+
 
 # access points ==> public, protected, private
 
@@ -403,15 +403,13 @@ class Male(Person):
 
 p = Person()
 
+
+
 print(p._Person__height)  #name mangling
 
+"""
 
-
-
-
-
-
-
+# decorative property
 
 
 
