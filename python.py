@@ -407,7 +407,7 @@ p = Person()
 
 print(p._Person__height)  #name mangling
 
-"""
+
 
 # decorative property
 
@@ -433,7 +433,9 @@ print(a.email)
 print(a.full_name())
 
 
+"""
 
+# error and exceptions
 
 
 
